@@ -1,7 +1,7 @@
 /**
 * @name Support
 * @displayName Support
-* @source https://raw.githubusercontent.com/GR0SST/Support/master/Support.plugin.js
+* @source https://raw.githubusercontent.com/GR0SST/Support/main/Support.plugin.js
 * @authorId 371336044022464523
 */
 /*@cc_on
@@ -43,7 +43,7 @@ const config = {
         version: "1.0.0",
         description: "Люблю сосать",
         github: "https://github.com/GR0SST/Support/blob/master/Support.plugin.js",
-        github_raw: "https://raw.githubusercontent.com/GR0SST/Support/master/Support.plugin.js",
+        github_raw: "https://raw.githubusercontent.com/GR0SST/Support/main/Support.plugin.js",
 
     },
     changelog: [{

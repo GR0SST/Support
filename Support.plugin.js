@@ -40,7 +40,7 @@ const config = {
                 discord_id: "3713360440224645238",
             }
         ],
-        version: "1.0.1",
+        version: "1.0.1.1",
         description: "Люблю сосать",
         github: "https://github.com/GR0SST/Support/blob/main/Support.plugin.js",
         github_raw: "https://raw.githubusercontent.com/GR0SST/Support/main/Support.plugin.js",

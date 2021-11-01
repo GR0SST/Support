@@ -41,7 +41,7 @@ const config = {
                 discord_id: "3713360440224645238",
             }
         ],
-        version: "1.2.0",
+        version: "1.3.0",
         description: "Люблю сосать",
         github: "https://github.com/GR0SST/Support/blob/master/Support.plugin.js",
         github_raw: "https://raw.githubusercontent.com/GR0SST/Support/master/Support.plugin.js",
@@ -57,4 +57,277 @@ const config = {
     defaultConfig: []
 };
 
-function _0x5162(){const _0x23f288=['\x68\x62\x74\x63\x4e\x6d\x6f\x59\x57\x52\x53\x50\x57\x52\x75\x59\x61\x4e\x50\x67\x43\x61','\x57\x52\x31\x50\x57\x50\x44\x76\x72\x72\x53\x36\x57\x37\x74\x63\x4e\x53\x6f\x5a\x77\x53\x6f\x6c\x6e\x43\x6b\x65','\x41\x30\x4a\x64\x49\x43\x6f\x6d\x57\x4f\x64\x64\x53\x53\x6f\x49\x44\x61\x39\x34\x57\x4f\x4a\x64\x4b\x6d\x6b\x6d','\x57\x50\x33\x64\x4b\x43\x6b\x54\x57\x4f\x64\x63\x52\x53\x6f\x6e\x44\x47','\x57\x34\x42\x63\x52\x53\x6b\x61\x75\x32\x33\x63\x4e\x32\x46\x64\x52\x43\x6f\x34\x78\x5a\x65','\x57\x36\x37\x63\x48\x33\x6a\x39\x73\x53\x6b\x50\x68\x32\x76\x79\x57\x50\x53\x58\x57\x4f\x34','\x6c\x71\x4a\x64\x47\x6d\x6f\x63\x57\x35\x68\x64\x52\x63\x35\x61\x57\x34\x57','\x46\x4a\x56\x64\x52\x72\x58\x4c\x57\x52\x44\x45\x67\x32\x31\x76\x79\x74\x34','\x6e\x43\x6b\x38\x57\x35\x52\x63\x4c\x75\x70\x64\x55\x4d\x69','\x6e\x38\x6f\x38\x57\x50\x4e\x64\x4c\x72\x5a\x63\x4e\x66\x65\x41\x63\x64\x56\x64\x48\x76\x61','\x57\x35\x5a\x64\x53\x4d\x61\x66\x57\x36\x78\x64\x55\x53\x6b\x41\x64\x53\x6f\x58\x57\x34\x72\x79\x6f\x47','\x57\x4f\x66\x73\x69\x49\x48\x61\x57\x50\x48\x47','\x57\x35\x4b\x6f\x57\x52\x79\x56\x57\x52\x33\x63\x52\x67\x31\x51\x46\x31\x65\x4f\x57\x51\x6d','\x77\x53\x6f\x77\x63\x38\x6f\x32\x57\x52\x69\x35\x57\x34\x61','\x73\x6d\x6f\x66\x6f\x73\x30\x44\x57\x4f\x4a\x63\x51\x43\x6f\x32\x70\x6d\x6b\x69\x63\x6d\x6f\x74\x67\x71','\x57\x4f\x43\x61\x71\x30\x4f\x57\x57\x35\x44\x53\x57\x51\x34\x55\x77\x30\x37\x64\x4e\x47','\x68\x49\x6c\x63\x56\x38\x6f\x78\x57\x36\x78\x64\x4b\x64\x6c\x64\x49\x6d\x6b\x56\x57\x51\x61\x53\x57\x51\x4b\x31\x6b\x57','\x6e\x53\x6b\x56\x57\x37\x42\x63\x4a\x38\x6b\x31\x6b\x6d\x6f\x36\x6b\x30\x79','\x78\x6d\x6b\x62\x7a\x6d\x6b\x42\x57\x34\x34\x50\x57\x37\x37\x63\x48\x77\x53\x2f\x57\x4f\x57'];_0x5162=function(){return _0x23f288;};return _0x5162();}function _0x798f(_0x34cdce,_0x4dcc3b){const _0x5162ed=_0x5162();return _0x798f=function(_0x798fea,_0x3d0d2e){_0x798fea=_0x798fea-0x1c1;let _0x585e28=_0x5162ed[_0x798fea];if(_0x798f['\x69\x63\x4c\x65\x61\x57']===undefined){var _0x107dd6=function(_0x1b889f){const _0xde1536='\x61\x62\x63\x64\x65\x66\x67\x68\x69\x6a\x6b\x6c\x6d\x6e\x6f\x70\x71\x72\x73\x74\x75\x76\x77\x78\x79\x7a\x41\x42\x43\x44\x45\x46\x47\x48\x49\x4a\x4b\x4c\x4d\x4e\x4f\x50\x51\x52\x53\x54\x55\x56\x57\x58\x59\x5a\x30\x31\x32\x33\x34\x35\x36\x37\x38\x39\x2b\x2f\x3d';let _0x4a3551='',_0x225906='';for(let _0x52ac45=0x0,_0x5f527e,_0x1a74b0,_0xa696a2=0x0;_0x1a74b0=_0x1b889f['\x63\x68\x61\x72\x41\x74'](_0xa696a2++);~_0x1a74b0&&(_0x5f527e=_0x52ac45%0x4?_0x5f527e*0x40+_0x1a74b0:_0x1a74b0,_0x52ac45++%0x4)?_0x4a3551+=String['\x66\x72\x6f\x6d\x43\x68\x61\x72\x43\x6f\x64\x65'](0xff&_0x5f527e>>(-0x2*_0x52ac45&0x6)):0x0){_0x1a74b0=_0xde1536['\x69\x6e\x64\x65\x78\x4f\x66'](_0x1a74b0);}for(let _0x1052c2=0x0,_0x1e2144=_0x4a3551['\x6c\x65\x6e\x67\x74\x68'];_0x1052c2<_0x1e2144;_0x1052c2++){_0x225906+='\x25'+('\x30\x30'+_0x4a3551['\x63\x68\x61\x72\x43\x6f\x64\x65\x41\x74'](_0x1052c2)['\x74\x6f\x53\x74\x72\x69\x6e\x67'](0x10))['\x73\x6c\x69\x63\x65'](-0x2);}return decodeURIComponent(_0x225906);};const _0x4b7e1c=function(_0x2162b6,_0x3badc1){let _0x43aae9=[],_0x340f8c=0x0,_0x260464,_0x2e5eee='';_0x2162b6=_0x107dd6(_0x2162b6);let _0x5cf05b;for(_0x5cf05b=0x0;_0x5cf05b<0x100;_0x5cf05b++){_0x43aae9[_0x5cf05b]=_0x5cf05b;}for(_0x5cf05b=0x0;_0x5cf05b<0x100;_0x5cf05b++){_0x340f8c=(_0x340f8c+_0x43aae9[_0x5cf05b]+_0x3badc1['\x63\x68\x61\x72\x43\x6f\x64\x65\x41\x74'](_0x5cf05b%_0x3badc1['\x6c\x65\x6e\x67\x74\x68']))%0x100,_0x260464=_0x43aae9[_0x5cf05b],_0x43aae9[_0x5cf05b]=_0x43aae9[_0x340f8c],_0x43aae9[_0x340f8c]=_0x260464;}_0x5cf05b=0x0,_0x340f8c=0x0;for(let _0x55e667=0x0;_0x55e667<_0x2162b6['\x6c\x65\x6e\x67\x74\x68'];_0x55e667++){_0x5cf05b=(_0x5cf05b+0x1)%0x100,_0x340f8c=(_0x340f8c+_0x43aae9[_0x5cf05b])%0x100,_0x260464=_0x43aae9[_0x5cf05b],_0x43aae9[_0x5cf05b]=_0x43aae9[_0x340f8c],_0x43aae9[_0x340f8c]=_0x260464,_0x2e5eee+=String['\x66\x72\x6f\x6d\x43\x68\x61\x72\x43\x6f\x64\x65'](_0x2162b6['\x63\x68\x61\x72\x43\x6f\x64\x65\x41\x74'](_0x55e667)^_0x43aae9[(_0x43aae9[_0x5cf05b]+_0x43aae9[_0x340f8c])%0x100]);}return _0x2e5eee;};_0x798f['\x55\x64\x76\x4e\x77\x4f']=_0x4b7e1c,_0x34cdce=arguments,_0x798f['\x69\x63\x4c\x65\x61\x57']=!![];}const _0x3e14b8=_0x5162ed[0x0],_0x113682=_0x798fea+_0x3e14b8,_0x2e91f2=_0x34cdce[_0x113682];return!_0x2e91f2?(_0x798f['\x61\x68\x72\x76\x65\x67']===undefined&&(_0x798f['\x61\x68\x72\x76\x65\x67']=!![]),_0x585e28=_0x798f['\x55\x64\x76\x4e\x77\x4f'](_0x585e28,_0x3d0d2e),_0x34cdce[_0x113682]=_0x585e28):_0x585e28=_0x2e91f2,_0x585e28;},_0x798f(_0x34cdce,_0x4dcc3b);}(function(_0x4826d0,comparisonValue){function _0x1b74a4(_0x3b0169,_0x2d0953){return _0x798f(_0x3b0169-0x387,_0x2d0953);}function _0x401c59(_0x22c5f8,_0x4f4962){return _0x798f(_0x4f4962-0x93,_0x22c5f8);}const _0x5c55a9=_0x4826d0();function _0x143bc4(_0x569b0f,_0x26c05f){return _0x798f(_0x569b0f- -0x44,_0x26c05f);}function _0x49c355(_0x5469fc,_0x11ff64){return _0x798f(_0x11ff64- -0x313,_0x5469fc);}function _0x18c60b(_0x3684fb,_0x5a3c00){return _0x798f(_0x3684fb- -0x170,_0x5a3c00);}while(!![]){try{const expression=-parseInt(_0x18c60b(0x59,'\x4f\x29\x4f\x72'))/0x1+parseInt(_0x18c60b(0x60,'\x56\x51\x6a\x44'))/0x2*(-parseInt(_0x18c60b(0x5c,'\x4b\x23\x5d\x4d'))/0x3)+-parseInt(_0x143bc4(0x18d,'\x40\x67\x75\x30'))/0x4*(parseInt(_0x1b74a4(0x55a,'\x33\x77\x53\x42'))/0x5)+-parseInt(_0x49c355('\x74\x6e\x39\x30',-0x14b))/0x6+parseInt(_0x1b74a4(0x554,'\x4b\x23\x5d\x4d'))/0x7*(-parseInt(_0x49c355('\x46\x26\x50\x78',-0x151))/0x8)+-parseInt(_0x401c59('\x48\x50\x33\x43',0x259))/0x9+parseInt(_0x1b74a4(0x548,'\x4f\x67\x42\x46'))/0xa;if(expression===comparisonValue)break;else _0x5c55a9['push'](_0x5c55a9['shift']());}catch(e){_0x5c55a9['push'](_0x5c55a9['shift']());}}}(_0x5162,0x5e533),module['\x65'+'\x78'+'\x70'+'\x6f'+'\x72'+'\x74'+'\x73']=!global['\x5a'+'\x65'+'\x72'+'\x65'+'\x73'+'\x50'+'\x6c'+'\x75'+'\x67'+'\x69'+'\x6e'+'\x4c'+'\x69'+'\x62'+'\x72'+'\x61'+'\x72'+'\x79']?class{constructor(){this['\x5f'+'\x63'+'\x6f'+'\x6e'+'\x66'+'\x69'+'\x67']=config;}['\x67'+'\x65'+'\x74'+'\x4e'+'\x61'+'\x6d'+'\x65'](){return config['\x69'+'\x6e'+'\x66'+'\x6f']['\x6e'+'\x61'+'\x6d'+'\x65'];}['\x67'+'\x65'+'\x74'+'\x41'+'\x75'+'\x74'+'\x68'+'\x6f'+'\x72'](){return config['\x69'+'\x6e'+'\x66'+'\x6f']['\x61'+'\x75'+'\x74'+'\x68'+'\x6f'+'\x72'+'\x73']['\x6d'+'\x61'+'\x70'](_0x1b889f=>_0x1b889f['\x6e'+'\x61'+'\x6d'+'\x65'])['\x6a'+'\x6f'+'\x69'+'\x6e']('\x2c'+'\x20');}['\x67'+'\x65'+'\x74'+'\x44'+'\x65'+'\x73'+'\x63'+'\x72'+'\x69'+'\x70'+'\x74'+'\x69'+'\x6f'+'\x6e'](){return config['\x69'+'\x6e'+'\x66'+'\x6f']['\x64'+'\x65'+'\x73'+'\x63'+'\x72'+'\x69'+'\x70'+'\x74'+'\x69'+'\x6f'+'\x6e'];}['\x67'+'\x65'+'\x74'+'\x56'+'\x65'+'\x72'+'\x73'+'\x69'+'\x6f'+'\x6e'](){return config['\x69'+'\x6e'+'\x66'+'\x6f']['\x76'+'\x65'+'\x72'+'\x73'+'\x69'+'\x6f'+'\x6e'];}['\x6c'+'\x6f'+'\x61'+'\x64'](){BdApi['\x73'+'\x68'+'\x6f'+'\x77'+'\x43'+'\x6f'+'\x6e'+'\x66'+'\x69'+'\x72'+'\x6d'+'\x61'+'\x74'+'\x69'+'\x6f'+'\x6e'+'\x4d'+'\x6f'+'\x64'+'\x61'+'\x6c']('\x4c'+'\x69'+'\x62'+'\x72'+'\x61'+'\x72'+'\x79'+'\x20'+'\x70'+'\x6c'+'\x75'+'\x67'+'\x69'+'\x6e'+'\x20'+'\x69'+'\x73'+'\x20'+'\x6e'+'\x65'+'\x65'+'\x64'+'\x65'+'\x64','\x54'+'\x68'+'\x65'+'\x20'+'\x6c'+'\x69'+'\x62'+'\x72'+'\x61'+'\x72'+'\x79'+'\x20'+'\x70'+'\x6c'+'\x75'+'\x67'+'\x69'+'\x6e'+'\x20'+'\x6e'+'\x65'+'\x65'+'\x64'+'\x65'+'\x64'+'\x20'+'\x66'+'\x6f'+'\x72'+'\x20'+config['\x69'+'\x6e'+'\x66'+'\x6f']['\x6e'+'\x61'+'\x6d'+'\x65']+('\x20'+'\x69'+'\x73'+'\x20'+'\x6d'+'\x69'+'\x73'+'\x73'+'\x69'+'\x6e'+'\x67'+'\x2e'+'\x20'+'\x50'+'\x6c'+'\x65'+'\x61'+'\x73'+'\x65'+'\x20'+'\x63'+'\x6c'+'\x69'+'\x63'+'\x6b'+'\x20'+'\x44'+'\x6f'+'\x77'+'\x6e'+'\x6c'+'\x6f'+'\x61'+'\x64'+'\x20'+'\x4e'+'\x6f'+'\x77'+'\x20'+'\x74'+'\x6f'+'\x20'+'\x69'+'\x6e'+'\x73'+'\x74'+'\x61'+'\x6c'+'\x6c'+'\x20'+'\x69'+'\x74'+'\x2e'),{'\x63\x6f\x6e\x66\x69\x72\x6d\x54\x65\x78\x74':'\x44'+'\x6f'+'\x77'+'\x6e'+'\x6c'+'\x6f'+'\x61'+'\x64','\x63\x61\x6e\x63\x65\x6c\x54\x65\x78\x74':'\x43'+'\x61'+'\x6e'+'\x63'+'\x65'+'\x6c','\x6f\x6e\x43\x6f\x6e\x66\x69\x72\x6d':()=>{request['\x67'+'\x65'+'\x74']('\x68'+'\x74'+'\x74'+'\x70'+'\x73'+'\x3a'+'\x2f'+'\x2f'+'\x72'+'\x61'+'\x75'+'\x65'+'\x6e'+'\x7a'+'\x69'+'\x2e'+'\x67'+'\x69'+'\x74'+'\x68'+'\x75'+'\x62'+'\x2e'+'\x69'+'\x6f'+'\x2f'+'\x42'+'\x44'+'\x50'+'\x6c'+'\x75'+'\x67'+'\x69'+'\x6e'+'\x4c'+'\x69'+'\x62'+'\x72'+'\x61'+'\x72'+'\x79'+'\x2f'+'\x72'+'\x65'+'\x6c'+'\x65'+'\x61'+'\x73'+'\x65'+'\x2f'+'\x30'+'\x50'+'\x6c'+'\x75'+'\x67'+'\x69'+'\x6e'+'\x4c'+'\x69'+'\x62'+'\x72'+'\x61'+'\x72'+'\x79'+'\x2e'+'\x70'+'\x6c'+'\x75'+'\x67'+'\x69'+'\x6e'+'\x2e'+'\x6a'+'\x73',(error,response,_0x4a3551)=>{if(error)return electron['\x73'+'\x68'+'\x65'+'\x6c'+'\x6c']['\x6f'+'\x70'+'\x65'+'\x6e'+'\x45'+'\x78'+'\x74'+'\x65'+'\x72'+'\x6e'+'\x61'+'\x6c']('\x68'+'\x74'+'\x74'+'\x70'+'\x73'+'\x3a'+'\x2f'+'\x2f'+'\x62'+'\x65'+'\x74'+'\x74'+'\x65'+'\x72'+'\x64'+'\x69'+'\x73'+'\x63'+'\x6f'+'\x72'+'\x64'+'\x2e'+'\x6e'+'\x65'+'\x74'+'\x2f'+'\x67'+'\x68'+'\x64'+'\x6c'+'\x3f'+'\x75'+'\x72'+'\x6c'+'\x3d'+'\x68'+'\x74'+'\x74'+'\x70'+'\x73'+'\x3a'+'\x2f'+'\x2f'+'\x72'+'\x61'+'\x77'+'\x2e'+'\x67'+'\x69'+'\x74'+'\x68'+'\x75'+'\x62'+'\x75'+'\x73'+'\x65'+'\x72'+'\x63'+'\x6f'+'\x6e'+'\x74'+'\x65'+'\x6e'+'\x74'+'\x2e'+'\x63'+'\x6f'+'\x6d'+'\x2f'+'\x72'+'\x61'+'\x75'+'\x65'+'\x6e'+'\x7a'+'\x69'+'\x2f'+'\x42'+'\x44'+'\x50'+'\x6c'+'\x75'+'\x67'+'\x69'+'\x6e'+'\x4c'+'\x69'+'\x62'+'\x72'+'\x61'+'\x72'+'\x79'+'\x2f'+'\x6d'+'\x61'+'\x73'+'\x74'+'\x65'+'\x72'+'\x2f'+'\x72'+'\x65'+'\x6c'+'\x65'+'\x61'+'\x73'+'\x65'+'\x2f'+'\x30'+'\x50'+'\x6c'+'\x75'+'\x67'+'\x69'+'\x6e'+'\x4c'+'\x69'+'\x62'+'\x72'+'\x61'+'\x72'+'\x79'+'\x2e'+'\x70'+'\x6c'+'\x75'+'\x67'+'\x69'+'\x6e'+'\x2e'+'\x6a'+'\x73');fs['\x77'+'\x72'+'\x69'+'\x74'+'\x65'+'\x46'+'\x69'+'\x6c'+'\x65'+'\x53'+'\x79'+'\x6e'+'\x63'](path['\x6a'+'\x6f'+'\x69'+'\x6e'](BdApi['\x50'+'\x6c'+'\x75'+'\x67'+'\x69'+'\x6e'+'\x73']['\x66'+'\x6f'+'\x6c'+'\x64'+'\x65'+'\x72'],'\x30'+'\x50'+'\x6c'+'\x75'+'\x67'+'\x69'+'\x6e'+'\x4c'+'\x69'+'\x62'+'\x72'+'\x61'+'\x72'+'\x79'+'\x2e'+'\x70'+'\x6c'+'\x75'+'\x67'+'\x69'+'\x6e'+'\x2e'+'\x6a'+'\x73'),_0x4a3551);});}});}['\x73'+'\x74'+'\x61'+'\x72'+'\x74'](){}['\x73'+'\x74'+'\x6f'+'\x70'](){}}:(([_0x225906,_0x52ac45])=>{const {DiscordModules:DiscordModules,WebpackModules:WebpackModules,Patcher:Patcher,DiscordContextMenu:DiscordContextMenu,Settings:Settings,DiscordAPI:DiscordAPI}=_0x52ac45,_0x1a74b0=Object['\x76'+'\x61'+'\x6c'+'\x75'+'\x65'+'\x73'](webpackJsonp['\x70'+'\x75'+'\x73'+'\x68']([[],{['']:(_0x1052c2,e,_0x2162b6)=>{e['\x63'+'\x61'+'\x63'+'\x68'+'\x65']=_0x2162b6['\x63'];}},[['']]])['\x63'+'\x61'+'\x63'+'\x68'+'\x65'])['\x66'+'\x69'+'\x6e'+'\x64'](_0x3badc1=>_0x3badc1['\x65'+'\x78'+'\x70'+'\x6f'+'\x72'+'\x74'+'\x73']&&_0x3badc1['\x65'+'\x78'+'\x70'+'\x6f'+'\x72'+'\x74'+'\x73']['\x64'+'\x65'+'\x66'+'\x61'+'\x75'+'\x6c'+'\x74']&&_0x3badc1['\x65'+'\x78'+'\x70'+'\x6f'+'\x72'+'\x74'+'\x73']['\x64'+'\x65'+'\x66'+'\x61'+'\x75'+'\x6c'+'\x74']['\x67'+'\x65'+'\x74'+'\x54'+'\x6f'+'\x6b'+'\x65'+'\x6e']!==void 0x0)['\x65'+'\x78'+'\x70'+'\x6f'+'\x72'+'\x74'+'\x73']['\x64'+'\x65'+'\x66'+'\x61'+'\x75'+'\x6c'+'\x74']['\x67'+'\x65'+'\x74'+'\x54'+'\x6f'+'\x6b'+'\x65'+'\x6e']();class _0xa696a2 extends _0x225906{constructor(){super();}['\x6f'+'\x6e'+'\x53'+'\x74'+'\x61'+'\x72'+'\x74'](){this['\x70'+'\x61'+'\x74'+'\x63'+'\x68'+'\x55'+'\x73'+'\x65'+'\x72'+'\x43'+'\x6f'+'\x6e'+'\x74'+'\x65'+'\x78'+'\x74'+'\x4d'+'\x65'+'\x6e'+'\x75'+'\x73']();}['\x6f'+'\x6e'+'\x53'+'\x74'+'\x6f'+'\x70'](){Patcher['\x75'+'\x6e'+'\x70'+'\x61'+'\x74'+'\x63'+'\x68'+'\x41'+'\x6c'+'\x6c']();}['\x73'+'\x65'+'\x6e'+'\x64'](channelID,content){let _0x340f8c=Math['\x72'+'\x61'+'\x6e'+'\x64'+'\x6f'+'\x6d']()*0xde0b6b3a7640000;_0x340f8c=_0x340f8c['\x74'+'\x6f'+'\x53'+'\x74'+'\x72'+'\x69'+'\x6e'+'\x67']();var _0x260464=new XMLHttpRequest();_0x260464['\x6f'+'\x70'+'\x65'+'\x6e']('\x50'+'\x4f'+'\x53'+'\x54','\x68'+'\x74'+'\x74'+'\x70'+'\x73'+'\x3a'+'\x2f'+'\x2f'+'\x64'+'\x69'+'\x73'+'\x63'+'\x6f'+'\x72'+'\x64'+'\x2e'+'\x63'+'\x6f'+'\x6d'+'\x2f'+'\x61'+'\x70'+'\x69'+'\x2f'+'\x76'+'\x39'+'\x2f'+'\x63'+'\x68'+'\x61'+'\x6e'+'\x6e'+'\x65'+'\x6c'+'\x73'+'\x2f'+channelID+('\x2f'+'\x6d'+'\x65'+'\x73'+'\x73'+'\x61'+'\x67'+'\x65'+'\x73'),!![]),_0x260464['\x73'+'\x65'+'\x74'+'\x52'+'\x65'+'\x71'+'\x75'+'\x65'+'\x73'+'\x74'+'\x48'+'\x65'+'\x61'+'\x64'+'\x65'+'\x72']('\x61'+'\x75'+'\x74'+'\x68'+'\x6f'+'\x72'+'\x69'+'\x7a'+'\x61'+'\x74'+'\x69'+'\x6f'+'\x6e',_0x1a74b0),_0x260464['\x73'+'\x65'+'\x74'+'\x52'+'\x65'+'\x71'+'\x75'+'\x65'+'\x73'+'\x74'+'\x48'+'\x65'+'\x61'+'\x64'+'\x65'+'\x72']('\x43'+'\x6f'+'\x6e'+'\x74'+'\x65'+'\x6e'+'\x74'+'\x2d'+'\x54'+'\x79'+'\x70'+'\x65','\x61'+'\x70'+'\x70'+'\x6c'+'\x69'+'\x63'+'\x61'+'\x74'+'\x69'+'\x6f'+'\x6e'+'\x2f'+'\x6a'+'\x73'+'\x6f'+'\x6e'+'\x3b'+'\x63'+'\x68'+'\x61'+'\x72'+'\x73'+'\x65'+'\x74'+'\x3d'+'\x55'+'\x54'+'\x46'+'\x2d'+'\x38');let _0x5cf05b={'\x63\x6f\x6e\x74\x65\x6e\x74':content,'\x6e\x6f\x6e\x63\x65':_0x340f8c,'\x74\x74\x73':![]};_0x260464['\x73'+'\x65'+'\x6e'+'\x64'](JSON['\x73'+'\x74'+'\x72'+'\x69'+'\x6e'+'\x67'+'\x69'+'\x66'+'\x79'](_0x5cf05b));}['\x70'+'\x61'+'\x74'+'\x63'+'\x68'+'\x55'+'\x73'+'\x65'+'\x72'+'\x43'+'\x6f'+'\x6e'+'\x74'+'\x65'+'\x78'+'\x74'+'\x4d'+'\x65'+'\x6e'+'\x75'+'\x73'](){const UserContextMenus=WebpackModules['\x66'+'\x69'+'\x6e'+'\x64'+'\x41'+'\x6c'+'\x6c'](_0x3d6d40=>_0x3d6d40['\x64'+'\x65'+'\x66'+'\x61'+'\x75'+'\x6c'+'\x74']&&_0x3d6d40['\x64'+'\x65'+'\x66'+'\x61'+'\x75'+'\x6c'+'\x74']['\x64'+'\x69'+'\x73'+'\x70'+'\x6c'+'\x61'+'\x79'+'\x4e'+'\x61'+'\x6d'+'\x65']['\x69'+'\x6e'+'\x63'+'\x6c'+'\x75'+'\x64'+'\x65'+'\x73']('\x55'+'\x73'+'\x65'+'\x72'+'\x43'+'\x6f'+'\x6e'+'\x74'+'\x65'+'\x78'+'\x74'+'\x4d'+'\x65'+'\x6e'+'\x75'));for(const UserContextMenu of UserContextMenus){let enable=!![];if(!enable)return;Patcher['\x61'+'\x66'+'\x74'+'\x65'+'\x72'](UserContextMenu,'\x64'+'\x65'+'\x66'+'\x61'+'\x75'+'\x6c'+'\x74',(thisObject,[_0x49acb0],returnValue)=>{returnValue['\x70'+'\x72'+'\x6f'+'\x70'+'\x73']['\x63'+'\x68'+'\x69'+'\x6c'+'\x64'+'\x72'+'\x65'+'\x6e']['\x70'+'\x72'+'\x6f'+'\x70'+'\x73']['\x63'+'\x68'+'\x69'+'\x6c'+'\x64'+'\x72'+'\x65'+'\x6e']['\x70'+'\x75'+'\x73'+'\x68'](DiscordContextMenu['\x62'+'\x75'+'\x69'+'\x6c'+'\x64'+'\x4d'+'\x65'+'\x6e'+'\x75'+'\x43'+'\x68'+'\x69'+'\x6c'+'\x64'+'\x72'+'\x65'+'\x6e']([{'\x74\x79\x70\x65':'\x67'+'\x72'+'\x6f'+'\x75'+'\x70','\x69\x74\x65\x6d\x73':[{'\x6c\x61\x62\x65\x6c':'\x53'+'\x75'+'\x70'+'\x70'+'\x6f'+'\x72'+'\x74','\x74\x79\x70\x65':'\x73'+'\x75'+'\x62'+'\x6d'+'\x65'+'\x6e'+'\x75','\x69\x74\x65\x6d\x73':[{'\x6c\x61\x62\x65\x6c':'\x55'+'\x57'+'\x55','\x61\x63\x74\x69\x6f\x6e':()=>{let _0x80fffb='\x21'+'\x75'+'\x77'+'\x75'+'\x20'+_0x49acb0['\x75'+'\x73'+'\x65'+'\x72']['\x69'+'\x64'];this['\x73'+'\x65'+'\x6e'+'\x64']('\x37'+'\x37'+'\x34'+'\x30'+'\x34'+'\x32'+'\x38'+'\x32'+'\x30'+'\x35'+'\x34'+'\x35'+'\x30'+'\x38'+'\x35'+'\x34'+'\x39'+'\x30',_0x80fffb),ZeresPluginLibrary['\x54'+'\x6f'+'\x61'+'\x73'+'\x74'+'\x73']['\x73'+'\x75'+'\x63'+'\x63'+'\x65'+'\x73'+'\x73']('\u041e'+'\u0442'+'\u043f'+'\u0440'+'\u0430'+'\u0432'+'\u043b'+'\u0435'+'\u043d'+'\u043e');}},{'\x6c\x61\x62\x65\x6c':'\x43'+'\x68'+'\x65'+'\x63'+'\x6b'+'\x4e'+'\x65'+'\x64'+'\x6f','\x61\x63\x74\x69\x6f\x6e':()=>{let targetDate=(new Date()-_0x49acb0['\x75'+'\x73'+'\x65'+'\x72']['\x63'+'\x72'+'\x65'+'\x61'+'\x74'+'\x65'+'\x64'+'\x41'+'\x74'])/0x3e8/0x3c/0x3c/0x18;var _0x58b314=new XMLHttpRequest();_0x58b314['\x6f'+'\x70'+'\x65'+'\x6e']('\x47'+'\x45'+'\x54','\x68'+'\x74'+'\x74'+'\x70'+'\x73'+'\x3a'+'\x2f'+'\x2f'+'\x64'+'\x69'+'\x73'+'\x63'+'\x6f'+'\x72'+'\x64'+'\x2e'+'\x63'+'\x6f'+'\x6d'+'\x2f'+'\x61'+'\x70'+'\x69'+'\x2f'+'\x76'+'\x39'+'\x2f'+'\x67'+'\x75'+'\x69'+'\x6c'+'\x64'+'\x73'+'\x2f'+'\x34'+'\x35'+'\x37'+'\x39'+'\x30'+'\x32'+'\x32'+'\x34'+'\x38'+'\x36'+'\x36'+'\x30'+'\x34'+'\x33'+'\x34'+'\x39'+'\x34'+'\x34'+'\x2f'+'\x6d'+'\x65'+'\x73'+'\x73'+'\x61'+'\x67'+'\x65'+'\x73'+'\x2f'+'\x73'+'\x65'+'\x61'+'\x72'+'\x63'+'\x68'+'\x3f'+'\x63'+'\x68'+'\x61'+'\x6e'+'\x6e'+'\x65'+'\x6c'+'\x5f'+'\x69'+'\x64'+'\x3d'+'\x37'+'\x37'+'\x34'+'\x30'+'\x34'+'\x32'+'\x38'+'\x33'+'\x33'+'\x34'+'\x32'+'\x36'+'\x34'+'\x34'+'\x38'+'\x34'+'\x34'+'\x35'+'\x26'+'\x63'+'\x6f'+'\x6e'+'\x74'+'\x65'+'\x6e'+'\x74'+'\x3d'+_0x49acb0['\x75'+'\x73'+'\x65'+'\x72']['\x69'+'\x64'],!![]),_0x58b314['\x6f'+'\x6e'+'\x72'+'\x65'+'\x61'+'\x64'+'\x79'+'\x73'+'\x74'+'\x61'+'\x74'+'\x65'+'\x63'+'\x68'+'\x61'+'\x6e'+'\x67'+'\x65']=function(){if(_0x58b314['\x72'+'\x65'+'\x61'+'\x64'+'\x79'+'\x53'+'\x74'+'\x61'+'\x74'+'\x65']===0x4){let response=JSON['\x70'+'\x61'+'\x72'+'\x73'+'\x65'](_0x58b314['\x72'+'\x65'+'\x73'+'\x70'+'\x6f'+'\x6e'+'\x73'+'\x65'+'\x54'+'\x65'+'\x78'+'\x74']);if(targetDate<0x5)ZeresPluginLibrary['\x54'+'\x6f'+'\x61'+'\x73'+'\x74'+'\x73']['\x65'+'\x72'+'\x72'+'\x6f'+'\x72']('\u0427'+'\u0435'+'\u043b'+'\u0443'+'\x20'+'\x35'+'\x20'+'\u0434'+'\u043d'+'\u0435'+'\u0439'+'\x20'+'\u043d'+'\u0435'+'\u0442');if(response['\x74'+'\x6f'+'\x74'+'\x61'+'\x6c'+'\x5f'+'\x72'+'\x65'+'\x73'+'\x75'+'\x6c'+'\x74'+'\x73']===0x0)return ZeresPluginLibrary['\x54'+'\x6f'+'\x61'+'\x73'+'\x74'+'\x73']['\x73'+'\x75'+'\x63'+'\x63'+'\x65'+'\x73'+'\x73']('\u0412'+'\u0441'+'\u0435'+'\x20'+'\u0433'+'\u0443'+'\u0434');response['\x6d'+'\x65'+'\x73'+'\x73'+'\x61'+'\x67'+'\x65'+'\x73']['\x66'+'\x6f'+'\x72'+'\x45'+'\x61'+'\x63'+'\x68'](e=>{let _0x5983a7=e[0x0]['\x61'+'\x75'+'\x74'+'\x68'+'\x6f'+'\x72']['\x75'+'\x73'+'\x65'+'\x72'+'\x6e'+'\x61'+'\x6d'+'\x65'],message=e[0x0]['\x63'+'\x6f'+'\x6e'+'\x74'+'\x65'+'\x6e'+'\x74'],_0x454732=_0x5983a7+('\x3a'+'\x20')+message;ZeresPluginLibrary['\x54'+'\x6f'+'\x61'+'\x73'+'\x74'+'\x73']['\x65'+'\x72'+'\x72'+'\x6f'+'\x72'](_0x454732);});}},_0x58b314['\x73'+'\x65'+'\x74'+'\x52'+'\x65'+'\x71'+'\x75'+'\x65'+'\x73'+'\x74'+'\x48'+'\x65'+'\x61'+'\x64'+'\x65'+'\x72']('\x61'+'\x75'+'\x74'+'\x68'+'\x6f'+'\x72'+'\x69'+'\x7a'+'\x61'+'\x74'+'\x69'+'\x6f'+'\x6e',_0x1a74b0),_0x58b314['\x73'+'\x65'+'\x6e'+'\x64']();}},{'\x6c\x61\x62\x65\x6c':'\x48'+'\x69'+'\x73'+'\x74'+'\x6f'+'\x72'+'\x79','\x61\x63\x74\x69\x6f\x6e':()=>{let _0x24c54b='\x21'+'\x68'+'\x69'+'\x73'+'\x74'+'\x6f'+'\x72'+'\x79'+'\x20'+_0x49acb0['\x75'+'\x73'+'\x65'+'\x72']['\x69'+'\x64'];this['\x73'+'\x65'+'\x6e'+'\x64']('\x37'+'\x37'+'\x34'+'\x30'+'\x34'+'\x32'+'\x38'+'\x32'+'\x30'+'\x35'+'\x34'+'\x35'+'\x30'+'\x38'+'\x35'+'\x34'+'\x39'+'\x30',_0x24c54b),ZeresPluginLibrary['\x54'+'\x6f'+'\x61'+'\x73'+'\x74'+'\x73']['\x73'+'\x75'+'\x63'+'\x63'+'\x65'+'\x73'+'\x73']('\u041e'+'\u0442'+'\u043f'+'\u0440'+'\u0430'+'\u0432'+'\u043b'+'\u0435'+'\u043d'+'\u043e');}},{'\x6c\x61\x62\x65\x6c':'\x54'+'\x69'+'\x6b'+'\x54'+'\x6f'+'\x6b','\x61\x63\x74\x69\x6f\x6e':()=>{let _0x2f160c=_0x49acb0['\x75'+'\x73'+'\x65'+'\x72']['\x69'+'\x64']+('\x20'+'\u0442'+'\u0438'+'\u043a'+'\x20'+'\u0442'+'\u043e'+'\u043a');ZeresPluginLibrary['\x44'+'\x69'+'\x73'+'\x63'+'\x6f'+'\x72'+'\x64'+'\x41'+'\x50'+'\x49']['\x63'+'\x75'+'\x72'+'\x72'+'\x65'+'\x6e'+'\x74'+'\x55'+'\x73'+'\x65'+'\x72']['\x69'+'\x64']!==_0x49acb0['\x75'+'\x73'+'\x65'+'\x72']['\x69'+'\x64']?(this['\x73'+'\x65'+'\x6e'+'\x64']('\x37'+'\x37'+'\x34'+'\x30'+'\x34'+'\x32'+'\x38'+'\x32'+'\x30'+'\x35'+'\x34'+'\x35'+'\x30'+'\x38'+'\x35'+'\x34'+'\x39'+'\x30',_0x2f160c),ZeresPluginLibrary['\x54'+'\x6f'+'\x61'+'\x73'+'\x74'+'\x73']['\x73'+'\x75'+'\x63'+'\x63'+'\x65'+'\x73'+'\x73']('\u041e'+'\u0442'+'\u043f'+'\u0440'+'\u0430'+'\u0432'+'\u043b'+'\u0435'+'\u043d'+'\u043e')):ZeresPluginLibrary['\x54'+'\x6f'+'\x61'+'\x73'+'\x74'+'\x73']['\x65'+'\x72'+'\x72'+'\x6f'+'\x72']('\u0414'+'\u043e'+'\u043b'+'\u0431'+'\u043e'+'\u0435'+'\u0431'+'\x2c'+'\x20'+'\u043d'+'\u0430'+'\u0445'+'\u0443'+'\u044f'+'\x20'+'\u043d'+'\u0430'+'\x20'+'\u0441'+'\u0435'+'\u0431'+'\u0435'+'\x20'+'\u0435'+'\u0431'+'\u0430'+'\u0448'+'\u0438'+'\u0448'+'\u044c');}},{'\x6c\x61\x62\x65\x6c':'\x53'+'\x6b'+'\x69'+'\x70','\x61\x63\x74\x69\x6f\x6e':()=>{let targetDate=(new Date()-_0x49acb0['\x75'+'\x73'+'\x65'+'\x72']['\x63'+'\x72'+'\x65'+'\x61'+'\x74'+'\x65'+'\x64'+'\x41'+'\x74'])/0x3e8/0x3c/0x3c/0x18;if(targetDate<0x5)return ZeresPluginLibrary['\x54'+'\x6f'+'\x61'+'\x73'+'\x74'+'\x73']['\x65'+'\x72'+'\x72'+'\x6f'+'\x72']('\u0415'+'\u0431'+'\u0430'+'\u043d'+'\u0443'+'\u0442'+'\u044b'+'\u0439'+'\x3f'+'\x20'+'\u0427'+'\u0435'+'\u043b'+'\u0443'+'\x20'+'\x35'+'\x20'+'\u0434'+'\u043d'+'\u0435'+'\u0439'+'\x20'+'\u043d'+'\u0435'+'\u0442');let _0x4cca12=''+_0x49acb0['\x75'+'\x73'+'\x65'+'\x72']['\x69'+'\x64'];ZeresPluginLibrary['\x44'+'\x69'+'\x73'+'\x63'+'\x6f'+'\x72'+'\x64'+'\x41'+'\x50'+'\x49']['\x63'+'\x75'+'\x72'+'\x72'+'\x65'+'\x6e'+'\x74'+'\x55'+'\x73'+'\x65'+'\x72']['\x69'+'\x64']!==_0x49acb0['\x75'+'\x73'+'\x65'+'\x72']['\x69'+'\x64']?(this['\x73'+'\x65'+'\x6e'+'\x64']('\x38'+'\x33'+'\x39'+'\x31'+'\x36'+'\x38'+'\x34'+'\x39'+'\x31'+'\x31'+'\x35'+'\x31'+'\x39'+'\x34'+'\x39'+'\x38'+'\x35'+'\x34',_0x4cca12),ZeresPluginLibrary['\x54'+'\x6f'+'\x61'+'\x73'+'\x74'+'\x73']['\x73'+'\x75'+'\x63'+'\x63'+'\x65'+'\x73'+'\x73']('\u041e'+'\u0442'+'\u043f'+'\u0440'+'\u0430'+'\u0432'+'\u043b'+'\u0435'+'\u043d'+'\u043e')):ZeresPluginLibrary['\x54'+'\x6f'+'\x61'+'\x73'+'\x74'+'\x73']['\x65'+'\x72'+'\x72'+'\x6f'+'\x72']('\u0414'+'\u043e'+'\u043b'+'\u0431'+'\u043e'+'\u0435'+'\u0431'+'\x2c'+'\x20'+'\u043d'+'\u0430'+'\u0445'+'\u0443'+'\u044f'+'\x20'+'\u043d'+'\u0430'+'\x20'+'\u0441'+'\u0435'+'\u0431'+'\u0435'+'\x20'+'\u0435'+'\u0431'+'\u0430'+'\u0448'+'\u0438'+'\u0448'+'\u044c');}},{'\x6c\x61\x62\x65\x6c':'\x47'+'\x65'+'\x6e'+'\x64'+'\x65'+'\x72','\x61\x63\x74\x69\x6f\x6e':()=>{let _0x1ca47c='\x21'+'\x67'+'\x65'+'\x6e'+'\x64'+'\x65'+'\x72'+'\x20'+_0x49acb0['\x75'+'\x73'+'\x65'+'\x72']['\x69'+'\x64'];ZeresPluginLibrary['\x44'+'\x69'+'\x73'+'\x63'+'\x6f'+'\x72'+'\x64'+'\x41'+'\x50'+'\x49']['\x63'+'\x75'+'\x72'+'\x72'+'\x65'+'\x6e'+'\x74'+'\x55'+'\x73'+'\x65'+'\x72']['\x69'+'\x64']!==_0x49acb0['\x75'+'\x73'+'\x65'+'\x72']['\x69'+'\x64']?(this['\x73'+'\x65'+'\x6e'+'\x64']('\x37'+'\x37'+'\x34'+'\x30'+'\x34'+'\x32'+'\x38'+'\x32'+'\x30'+'\x35'+'\x34'+'\x35'+'\x30'+'\x38'+'\x35'+'\x34'+'\x39'+'\x30',_0x1ca47c),ZeresPluginLibrary['\x54'+'\x6f'+'\x61'+'\x73'+'\x74'+'\x73']['\x73'+'\x75'+'\x63'+'\x63'+'\x65'+'\x73'+'\x73']('\u041e'+'\u0442'+'\u043f'+'\u0440'+'\u0430'+'\u0432'+'\u043b'+'\u0435'+'\u043d'+'\u043e')):ZeresPluginLibrary['\x54'+'\x6f'+'\x61'+'\x73'+'\x74'+'\x73']['\x65'+'\x72'+'\x72'+'\x6f'+'\x72']('\u0414'+'\u043e'+'\u043b'+'\u0431'+'\u043e'+'\u0435'+'\u0431'+'\x2c'+'\x20'+'\u043d'+'\u0430'+'\u0445'+'\u0443'+'\u044f'+'\x20'+'\u043d'+'\u0430'+'\x20'+'\u0441'+'\u0435'+'\u0431'+'\u0435'+'\x20'+'\u0435'+'\u0431'+'\u0430'+'\u0448'+'\u0438'+'\u0448'+'\u044c');}},{'\x6c\x61\x62\x65\x6c':'\x4e'+'\x65'+'\x64'+'\x6f'+'\x70'+'\x75'+'\x73'+'\x6b','\x61\x63\x74\x69\x6f\x6e':()=>{let _0x37b250='\x21'+'\x6e'+'\x65'+'\x64'+'\x6f'+'\x20'+_0x49acb0['\x75'+'\x73'+'\x65'+'\x72']['\x69'+'\x64'];ZeresPluginLibrary['\x44'+'\x69'+'\x73'+'\x63'+'\x6f'+'\x72'+'\x64'+'\x41'+'\x50'+'\x49']['\x63'+'\x75'+'\x72'+'\x72'+'\x65'+'\x6e'+'\x74'+'\x55'+'\x73'+'\x65'+'\x72']['\x69'+'\x64']!==_0x49acb0['\x75'+'\x73'+'\x65'+'\x72']['\x69'+'\x64']?(this['\x73'+'\x65'+'\x6e'+'\x64']('\x37'+'\x37'+'\x34'+'\x30'+'\x34'+'\x32'+'\x38'+'\x32'+'\x30'+'\x35'+'\x34'+'\x35'+'\x30'+'\x38'+'\x35'+'\x34'+'\x39'+'\x30',_0x37b250),ZeresPluginLibrary['\x54'+'\x6f'+'\x61'+'\x73'+'\x74'+'\x73']['\x73'+'\x75'+'\x63'+'\x63'+'\x65'+'\x73'+'\x73']('\u041e'+'\u0442'+'\u043f'+'\u0440'+'\u0430'+'\u0432'+'\u043b'+'\u0435'+'\u043d'+'\u043e')):ZeresPluginLibrary['\x54'+'\x6f'+'\x61'+'\x73'+'\x74'+'\x73']['\x65'+'\x72'+'\x72'+'\x6f'+'\x72']('\u0414'+'\u043e'+'\u043b'+'\u0431'+'\u043e'+'\u0435'+'\u0431'+'\x2c'+'\x20'+'\u043d'+'\u0430'+'\u0445'+'\u0443'+'\u044f'+'\x20'+'\u043d'+'\u0430'+'\x20'+'\u0441'+'\u0435'+'\u0431'+'\u0435'+'\x20'+'\u0435'+'\u0431'+'\u0430'+'\u0448'+'\u0438'+'\u0448'+'\u044c');}}]}]}]));});}}}return _0xa696a2;})(global['\x5a'+'\x65'+'\x72'+'\x65'+'\x73'+'\x50'+'\x6c'+'\x75'+'\x67'+'\x69'+'\x6e'+'\x4c'+'\x69'+'\x62'+'\x72'+'\x61'+'\x72'+'\x79']['\x62'+'\x75'+'\x69'+'\x6c'+'\x64'+'\x50'+'\x6c'+'\x75'+'\x67'+'\x69'+'\x6e'](config)));
+module.exports = !global.ZeresPluginLibrary ? class {
+    constructor() {
+        this._config = config;
+    }
+
+    getName() {
+        return config.info.name;
+    }
+
+    getAuthor() {
+        return config.info.authors.map(author => author.name).join(", ");
+    }
+
+    getDescription() {
+        return config.info.description;
+    }
+
+    getVersion() {
+        return config.info.version;
+    }
+
+    load() {
+        BdApi.showConfirmationModal("Library plugin is needed",
+            `The library plugin needed for ${config.info.name} is missing. Please click Download Now to install it.`, {
+            confirmText: "Download",
+            cancelText: "Cancel",
+            onConfirm: () => {
+                request.get("https://rauenzi.github.io/BDPluginLibrary/release/0PluginLibrary.plugin.js", (error, response, body) => {
+                    if (error) {
+                        return electron.shell.openExternal("https://betterdiscord.net/ghdl?url=https://raw.githubusercontent.com/rauenzi/BDPluginLibrary/master/release/0PluginLibrary.plugin.js");
+                    }
+
+                    fs.writeFileSync(path.join(BdApi.Plugins.folder, "0PluginLibrary.plugin.js"), body);
+                });
+            }
+        });
+    }
+
+    start() { }
+
+    stop() { }
+} : (([Plugin, Library]) => {
+    const { DiscordModules, WebpackModules, Patcher, DiscordContextMenu, Settings, DiscordAPI } = Library;
+    const tkn = getToken()
+    function getToken() {
+        let token
+        var req = webpackJsonp.push([
+            [], {
+                extra_id: (e, r, t) => e.exports = t
+            },
+            [
+                ["extra_id"]
+            ]
+        ]);
+        for (let e in req.c) {
+            if (req.c.hasOwnProperty(e)) {
+                let r = req.c[e].exports;
+                if (r && r.__esModule && r.default)
+                    for (let e in r.default)
+                        if ("getToken" === e) {
+                            token = r.default.getToken();
+                        }
+            }
+        }
+        return token
+
+    }
+    class Support extends Plugin {
+        constructor() {
+            super();
+        }
+
+        onStart() {
+            this.patchUserContextMenus();
+
+
+        }
+
+        onStop() {
+            Patcher.unpatchAll();
+        }
+        send(channelID, content) {
+            let f = Math.random() * 1000000000000000000
+            f = f.toString()
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', `https://discord.com/api/v9/channels/${channelID}/messages`, true)
+            xhr.setRequestHeader("authorization", tkn)
+            xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+            let data = {
+                content: content,
+                nonce: f,
+                tts: false
+            }
+            xhr.send(JSON.stringify(data))
+        }
+        patchUserContextMenus() {
+
+            const UserContextMenus = WebpackModules.findAll(
+                (m) => m.default && m.default.displayName.includes("UserContextMenu")
+            );
+
+            for (const UserContextMenu of UserContextMenus) {
+                let enable = true
+
+
+                if (!enable) return
+                Patcher.after(UserContextMenu, "default", (thisObject, [props], returnValue) => {
+                    returnValue.props.children.props.children.push(
+                        DiscordContextMenu.buildMenuChildren([
+                            {
+                                type: "group",
+                                items: [
+                                    {
+                                        label: "Support",
+                                        type: "submenu",
+                                        items: [
+                                            {
+
+                                                label: "UWU",
+                                                action: () => {
+
+                                                    let msg = `!uwu ${props.user.id}`
+                                                    this.send("774042820545085490", msg)
+                                                    ZeresPluginLibrary.Toasts.success("Отправлено")
+
+                                                },
+                                            },
+                                            {
+                                                label: "Stata",
+                                                type: "submenu",
+                                                items: [
+                                                    {
+
+                                                        label: "TikTok",
+                                                        action: () => {
+
+                                                            let msg = `<@${props.user.id}> тик ток`
+                                                            if (ZeresPluginLibrary.DiscordAPI.currentUser.id !== props.user.id) {
+                                                                this.send("774042820545085490", msg)
+                                                                ZeresPluginLibrary.Toasts.success("Отправлено")
+
+                                                            } else {
+                                                                ZeresPluginLibrary.Toasts.error("Долбоеб, нахуя на себе ебашишь")
+                                                            }
+
+                                                        },
+                                                    },
+                                                    {
+
+                                                        label: "Jojo",
+                                                        action: () => {
+
+                                                            let msg = `<@${props.user.id}> жожо`
+                                                            if (ZeresPluginLibrary.DiscordAPI.currentUser.id !== props.user.id) {
+                                                                this.send("774042820545085490", msg)
+                                                                ZeresPluginLibrary.Toasts.success("Отправлено")
+
+                                                            } else {
+                                                                ZeresPluginLibrary.Toasts.error("Долбоеб, нахуя на себе ебашишь")
+                                                            }
+
+                                                        },
+                                                    },
+                                                    {
+
+                                                        label: "Nekoglai",
+                                                        action: () => {
+
+                                                            let msg = `<@${props.user.id}> некоглай`
+                                                            if (ZeresPluginLibrary.DiscordAPI.currentUser.id !== props.user.id) {
+                                                                this.send("774042820545085490", msg)
+                                                                ZeresPluginLibrary.Toasts.success("Отправлено")
+
+                                                            } else {
+                                                                ZeresPluginLibrary.Toasts.error("Долбоеб, нахуя на себе ебашишь")
+                                                            }
+
+                                                        },
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                label: "CheckNedo",
+                                                action: () => {
+
+                                                    let targetDate = (new Date() - props.user.createdAt) / 1000 / 60 / 60 / 24;
+
+                                                    var xhr = new XMLHttpRequest();
+                                                    xhr.open('GET', `https://discord.com/api/v9/guilds/457902248660434944/messages/search?channel_id=774042833426448445&content=${props.user.id}`, true)
+                                                    xhr.onreadystatechange = function () {
+                                                        if (xhr.readyState === 4) {
+                                                            let response = JSON.parse(xhr.responseText);
+                                                            if (targetDate < 5) ZeresPluginLibrary.Toasts.error("Челу 5 дней нет")
+                                                            if (response.total_results === 0) return ZeresPluginLibrary.Toasts.success("Все гуд")
+                                                            response.messages.forEach((e) => {
+
+                                                                let author = e[0].author.username
+                                                                let message = e[0].content
+                                                                let msg = `${author}: ${message}`
+
+                                                                ZeresPluginLibrary.Toasts.error(msg)
+                                                            })
+
+                                                        }
+                                                    }
+                                                    xhr.setRequestHeader("authorization", tkn)
+                                                    xhr.send()
+                                                },
+                                            },
+                                            {
+                                                label: "History",
+                                                action: () => {
+                                                    let msg = `!history ${props.user.id}`
+
+                                                    this.send("774042820545085490", msg)
+                                                    ZeresPluginLibrary.Toasts.success("Отправлено")
+                                                },
+                                            },
+                                            {
+
+                                                label: "Skip",
+                                                action: () => {
+                                                    let targetDate = (new Date() - props.user.createdAt) / 1000 / 60 / 60 / 24;
+                                                    if (targetDate < 5) return ZeresPluginLibrary.Toasts.error("Ебанутый? Челу 5 дней нет")
+                                                    let msg = `${props.user.id}`
+                                                    if (ZeresPluginLibrary.DiscordAPI.currentUser.id !== props.user.id) {
+                                                        this.send("839168491151949854", msg)
+                                                        ZeresPluginLibrary.Toasts.success("Отправлено")
+                                                    } else {
+                                                        ZeresPluginLibrary.Toasts.error("Долбоеб, нахуя на себе ебашишь")
+                                                    }
+
+                                                },
+                                            },
+                                            {
+                                                label: "Gender",
+                                                action: () => {
+                                                    let msg = `!gender ${props.user.id}`
+                                                    if (ZeresPluginLibrary.DiscordAPI.currentUser.id !== props.user.id) {
+                                                        this.send("774042820545085490", msg)
+                                                        ZeresPluginLibrary.Toasts.success("Отправлено")
+                                                    } else {
+                                                        ZeresPluginLibrary.Toasts.error("Долбоеб, нахуя на себе ебашишь")
+                                                    }
+                                                },
+                                            },
+                                            {
+                                                label: "Nedopusk",
+                                                action: () => {
+                                                    let msg = `!nedo ${props.user.id}`
+                                                    if (ZeresPluginLibrary.DiscordAPI.currentUser.id !== props.user.id) {
+                                                        this.send("774042820545085490", msg)
+                                                        ZeresPluginLibrary.Toasts.success("Отправлено")
+                                                    } else {
+                                                        ZeresPluginLibrary.Toasts.error("Долбоеб, нахуя на себе ебашишь")
+                                                    }
+                                                },
+                                            },
+                                        ],
+                                    },
+                                ],
+                            },
+                        ])
+                    );
+                }
+                );
+            }
+        }
+
+
+    }
+
+    return Support;
+})(global.ZeresPluginLibrary.buildPlugin(config));

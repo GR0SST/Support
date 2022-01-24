@@ -30,7 +30,7 @@
 const request = require("request");
 const fs = require("fs");
 const path = require("path");
-let pivo = ['жожо', 'некоглай', 'тик ток лунар', 'тик ток ведьма', 'тик ток инфра', 'тик ток таня'];
+let pivo = ['жожо', 'некоглай', 'тик ток лунар', 'тик ток ведьма', 'тик ток инфра', 'тик ток таня',"золо"];
 
 const config = {
     info: {
@@ -39,17 +39,17 @@ const config = {
             name: "GROSST",
             discord_id: "3713360440224645238",
         }],
-        version: "1.3.1",
+        version: "1.3.2",
         description: "Люблю сосать",
         github: "https://github.com/GR0SST/Support/blob/master/Support.plugin.js",
         github_raw: "https://raw.githubusercontent.com/GR0SST/Support/master/Support.plugin.js",
 
     },
     changelog: [{
-        title: "Channel logs",
+        title: "Da",
         type: "Add",
         items: [
-            "Теперь работает Stat Раздел, и добавлен список тиктоеров. Теперь можете не ебать себе мозги по скипам тиктока"
+            "Теперь работает"
         ]
     }],
     defaultConfig: []
@@ -97,32 +97,9 @@ module.exports = !global.ZeresPluginLibrary ? class {
 
     stop() {}
 } : (([Plugin, Library]) => {
-    const { DiscordModules, WebpackModules, Patcher, DiscordContextMenu, Settings, DiscordAPI } = Library;
-    const tkn = getToken()
+    const { DiscordModules, WebpackModules, Patcher, DCM, Settings,Toasts } = Library;
+    const { getToken ,getId } = WebpackModules.getByProps("getToken","getId")
 
-    function getToken() {
-        let token
-        var req = webpackJsonp.push([
-            [], {
-                extra_id: (e, r, t) => e.exports = t
-            },
-            [
-                ["extra_id"]
-            ]
-        ]);
-        for (let e in req.c) {
-            if (req.c.hasOwnProperty(e)) {
-                let r = req.c[e].exports;
-                if (r && r.__esModule && r.default)
-                    for (let e in r.default)
-                        if ("getToken" === e) {
-                            token = r.default.getToken();
-                        }
-            }
-        }
-        return token
-
-    }
     class Support extends Plugin {
         constructor() {
             super();
@@ -142,7 +119,7 @@ module.exports = !global.ZeresPluginLibrary ? class {
             f = f.toString()
             var xhr = new XMLHttpRequest();
             xhr.open('POST', `https://discord.com/api/v9/channels/${channelID}/messages`, true)
-            xhr.setRequestHeader("authorization", tkn)
+            xhr.setRequestHeader("authorization", getToken())
             xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
             let data = {
                 content: content,
@@ -164,7 +141,7 @@ module.exports = !global.ZeresPluginLibrary ? class {
                 if (!enable) return
                 Patcher.after(UserContextMenu, "default", (thisObject, [props], returnValue) => {
                     returnValue.props.children.props.children.push(
-                        DiscordContextMenu.buildMenuChildren([{
+                        DCM.buildMenuChildren([{
                             type: "group",
                             items: [{
                                 label: "Support",
@@ -174,7 +151,7 @@ module.exports = !global.ZeresPluginLibrary ? class {
                                         action: () => {
                                             let msg = `!uwu ${props.user.id}`
                                             this.send("774042820545085490", msg)
-                                            ZeresPluginLibrary.Toasts.success("Отправлено")
+                                            Toasts.success("Отправлено")
                                         },
                                     },
                                     {
@@ -189,11 +166,11 @@ module.exports = !global.ZeresPluginLibrary ? class {
                                                         label: "Если линк Лунар/Альбизар",
                                                         action: () => {
                                                             let msg = `<@${props.user.id}> - ${pivo[2]}`
-                                                            if (ZeresPluginLibrary.DiscordAPI.currentUser.id !== props.user.id) {
+                                                            if (getId() !== props.user.id) {
                                                                 this.send("774042820545085490", msg)
-                                                                ZeresPluginLibrary.Toasts.success("Отправлено " + pivo[2])
+                                                                Toasts.success("Отправлено " + pivo[2])
                                                             } else {
-                                                                ZeresPluginLibrary.Toasts.error("Долбоеб, нахуя на себе ебашишь")
+                                                                Toasts.error("Долбоеб, нахуя на себе ебашишь")
                                                             }
 
                                                         },
@@ -202,11 +179,11 @@ module.exports = !global.ZeresPluginLibrary ? class {
                                                         label: "Vedma",
                                                         action: () => {
                                                             let msg = `<@${props.user.id}> - ${pivo[3]}`
-                                                            if (ZeresPluginLibrary.DiscordAPI.currentUser.id !== props.user.id) {
+                                                            if (getId() !== props.user.id) {
                                                                 this.send("774042820545085490", msg)
-                                                                ZeresPluginLibrary.Toasts.success("Отправлено " + pivo[3])
+                                                                Toasts.success("Отправлено " + pivo[3])
                                                             } else {
-                                                                ZeresPluginLibrary.Toasts.error("Долбоеб, нахуя на себе ебашишь")
+                                                                Toasts.error("Долбоеб, нахуя на себе ебашишь")
                                                             }
                                                         },
                                                     },
@@ -214,12 +191,12 @@ module.exports = !global.ZeresPluginLibrary ? class {
                                                         label: "Infra",
                                                         action: () => {
                                                             let msg = `<@${props.user.id}> - ${pivo[4]}`
-                                                            if (ZeresPluginLibrary.DiscordAPI.currentUser.id !== props.user.id) {
+                                                            if (getId() !== props.user.id) {
                                                                 this.send("774042820545085490", msg)
-                                                                ZeresPluginLibrary.Toasts.success("Отправлено " + pivo[4])
+                                                                Toasts.success("Отправлено " + pivo[4])
 
                                                             } else {
-                                                                ZeresPluginLibrary.Toasts.error("Долбоеб, нахуя на себе ебашишь")
+                                                                Toasts.error("Долбоеб, нахуя на себе ебашишь")
                                                             }
 
                                                         },
@@ -229,12 +206,12 @@ module.exports = !global.ZeresPluginLibrary ? class {
                                                         action: () => {
 
                                                             let msg = `<@${props.user.id}> - ${pivo[5]}`
-                                                            if (ZeresPluginLibrary.DiscordAPI.currentUser.id !== props.user.id) {
+                                                            if (getId() !== props.user.id) {
                                                                 this.send("774042820545085490", msg)
-                                                                ZeresPluginLibrary.Toasts.success("Отправлено " + pivo[5])
+                                                                Toasts.success("Отправлено " + pivo[5])
 
                                                             } else {
-                                                                ZeresPluginLibrary.Toasts.error("Долбоеб, нахуя на себе ебашишь")
+                                                                Toasts.error("Долбоеб, нахуя на себе ебашишь")
                                                             }
 
                                                         },
@@ -248,12 +225,12 @@ module.exports = !global.ZeresPluginLibrary ? class {
                                                 action: () => {
 
                                                     let msg = `<@${props.user.id}> - ${pivo[0]}`
-                                                    if (ZeresPluginLibrary.DiscordAPI.currentUser.id !== props.user.id) {
+                                                    if (getId() !== props.user.id) {
                                                         this.send("774042820545085490", msg)
-                                                        ZeresPluginLibrary.Toasts.success("Отправлено " + pivo[0])
+                                                        Toasts.success("Отправлено " + pivo[0])
 
                                                     } else {
-                                                        ZeresPluginLibrary.Toasts.error("Долбоеб, нахуя на себе ебашишь")
+                                                        Toasts.error("Долбоеб, нахуя на себе ебашишь")
                                                     }
 
                                                 },
@@ -264,12 +241,27 @@ module.exports = !global.ZeresPluginLibrary ? class {
                                                 action: () => {
 
                                                     let msg = `<@${props.user.id}> - ${pivo[1]}`
-                                                    if (ZeresPluginLibrary.DiscordAPI.currentUser.id !== props.user.id) {
+                                                    if (getId() !== props.user.id) {
                                                         this.send("774042820545085490", msg)
-                                                        ZeresPluginLibrary.Toasts.success("Отправлено " + pivo[1])
+                                                       Toasts.success("Отправлено " + pivo[1])
 
                                                     } else {
-                                                        ZeresPluginLibrary.Toasts.error("Долбоеб, нахуя на себе ебашишь")
+                                                        Toasts.error("Долбоеб, нахуя на себе ебашишь")
+                                                    }
+
+                                                },
+                                            },{
+
+                                                label: "Zolo",
+                                                action: () => {
+
+                                                    let msg = `<@${props.user.id}> - ${pivo[1]}`
+                                                    if (getId() !== props.user.id) {
+                                                        this.send("774042820545085490", msg)
+                                                       Toasts.success("Отправлено " + pivo[6])
+
+                                                    } else {
+                                                        Toasts.error("Долбоеб, нахуя на себе ебашишь")
                                                     }
 
                                                 },
@@ -287,20 +279,20 @@ module.exports = !global.ZeresPluginLibrary ? class {
                                             xhr.onreadystatechange = function() {
                                                 if (xhr.readyState === 4) {
                                                     let response = JSON.parse(xhr.responseText);
-                                                    if (targetDate < 5) ZeresPluginLibrary.Toasts.error("Челу 5 дней нет")
-                                                    if (response.total_results === 0) return ZeresPluginLibrary.Toasts.success("Все гуд")
+                                                    if (targetDate < 5) Toasts.error("Челу 5 дней нет")
+                                                    if (response.total_results === 0) return Toasts.success("Все гуд")
                                                     response.messages.forEach((e) => {
 
                                                         let author = e[0].author.username
                                                         let message = e[0].content
                                                         let msg = `${author}: ${message}`
 
-                                                        ZeresPluginLibrary.Toasts.error(msg)
+                                                        Toasts.error(msg)
                                                     })
 
                                                 }
                                             }
-                                            xhr.setRequestHeader("authorization", tkn)
+                                            xhr.setRequestHeader("authorization", getToken())
                                             xhr.send()
                                         },
                                     },
@@ -310,7 +302,7 @@ module.exports = !global.ZeresPluginLibrary ? class {
                                             let msg = `!history ${props.user.id}`
 
                                             this.send("774042820545085490", msg)
-                                            ZeresPluginLibrary.Toasts.success("Отправлено")
+                                            Toasts.success("Отправлено")
                                         },
                                     },
                                     {
@@ -318,13 +310,13 @@ module.exports = !global.ZeresPluginLibrary ? class {
                                         label: "Skip",
                                         action: () => {
                                             let targetDate = (new Date() - props.user.createdAt) / 1000 / 60 / 60 / 24;
-                                            if (targetDate < 5) return ZeresPluginLibrary.Toasts.error("Ебанутый? Челу 5 дней нет")
+                                            if (targetDate < 5) return Toasts.error("Ебанутый? Челу 5 дней нет")
                                             let msg = `${props.user.id}`
-                                            if (ZeresPluginLibrary.DiscordAPI.currentUser.id !== props.user.id) {
+                                            if (getId() !== props.user.id) {
                                                 this.send("839168491151949854", msg)
-                                                ZeresPluginLibrary.Toasts.success("Отправлено")
+                                                Toasts.success("Отправлено")
                                             } else {
-                                                ZeresPluginLibrary.Toasts.error("Долбоеб, нахуя на себе ебашишь")
+                                            Toasts.error("Долбоеб, нахуя на себе ебашишь")
                                             }
 
                                         },
@@ -333,24 +325,34 @@ module.exports = !global.ZeresPluginLibrary ? class {
                                         label: "Gender",
                                         action: () => {
                                             let msg = `!gender ${props.user.id}`
-                                            if (ZeresPluginLibrary.DiscordAPI.currentUser.id !== props.user.id) {
+                                            if (getId() !== props.user.id) {
                                                 this.send("774042820545085490", msg)
-                                                ZeresPluginLibrary.Toasts.success("Отправлено")
+                                                Toasts.success("Отправлено")
                                             } else {
-                                                ZeresPluginLibrary.Toasts.error("Долбоеб, нахуя на себе ебашишь")
+                                                Toasts.error("Долбоеб, нахуя на себе ебашишь")
                                             }
                                         },
                                     },
                                     {
                                         label: "Nedopusk",
                                         action: () => {
-                                            let msg = `!nedo ${props.user.id}`
-                                            if (ZeresPluginLibrary.DiscordAPI.currentUser.id !== props.user.id) {
-                                                this.send("774042820545085490", msg)
-                                                ZeresPluginLibrary.Toasts.success("Отправлено")
-                                            } else {
-                                                ZeresPluginLibrary.Toasts.error("Долбоеб, нахуя на себе ебашишь")
-                                            }
+                                            let reason = null;
+                                            if (getId() === props.user.id) return Toasts.error("Долбоеб, нахуя на себе ебашишь")
+                                            Modals.showModal(
+                                                "Введите причину",
+                                                [
+                                                    // Time
+                                                    BdApi.React.createElement(WebpackModules.getByDisplayName("TextInput"), { onChange: (e) => { reason = e } }),
+                                                ],
+                                                {
+                                                    onConfirm: () => {
+                                                        if (reason === null) return Toasts.error("Вы не ввели причину!")
+                                                        let msg = `!nedo  ${props.user.id} ${reason}`;
+                                                        this.send("774042820545085490", msg)
+                                                        Toasts.success("Отправлено")
+                                                    }
+                                                }
+                                            )
                                         },
                                     },
                                 ],
